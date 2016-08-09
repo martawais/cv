@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:stackFromBottom="true"
+    android:transcriptMode="alwaysScroll" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/doswiadczenie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:text="doświadczenie"/>
+
+
+
+    <TextView
+        android:id="@+id/added_doswiadczenie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text=""/>
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/daneOsobowe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:text="dane osobowe"/>
+
+
+
+
+    <TextView
+        android:id="@+id/daneOsobowe1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/daneOsobowe"
+        android:layout_below="@+id/daneOsobowe"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:text="Marta Wais"/>
+
+
+    <TextView
+        android:id="@+id/daneOsobowe2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/daneOsobowe1"
+        android:layout_below="@+id/daneOsobowe1"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:text="+48 687 726 272"/>
+    <TextView
+        android:id="@+id/daneOsobowe3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/daneOsobowe2"
+        android:layout_below="@+id/daneOsobowe2"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:text="martamstowska@gmail.com"/>
+    <TextView
+        android:id="@+id/daneOsobowe4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/daneOsobowe3"
+        android:layout_below="@+id/daneOsobowe3"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:text="ur. 28.05.1989 r."/>
+    <TextView
+        android:id="@+id/daneOsobowe5"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/daneOsobowe4"
+        android:layout_below="@+id/daneOsobowe4"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:text="ul. Młyńska 3/11 b"/>
+
+    <TextView
+        android:id="@+id/daneOsobowe6"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/daneOsobowe5"
+        android:layout_below="@+id/daneOsobowe5"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:text="61-729 Poznań"/>
+
+    <TextView
+        android:id="@+id/doswiadczenie1.1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doswiadczenie"
+        android:layout_below="@+id/doswiadczenie"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="02.2014r."/>
+    <TextView
+        android:id="@+id/doswiadczenie1.2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doswiadczenie1.1"
+        android:layout_below="@+id/doswiadczenie1.1"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:textSize="15dp"
+        android:text="Autor artykułu: Architektoniczne środki wytwarzania granic społecznych w miastach, Człowiek i Społeczeństwo 1/2014, Poznań"/>
+
+    <TextView
+        android:id="@+id/doswiadczenie2.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doswiadczenie1.2"
+        android:layout_below="@+id/doswiadczenie1.2"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="04.2013r. - 09.2013r."/>
+    <TextView
+        android:id="@+id/doswiadczenie2.2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doswiadczenie2.1"
+        android:layout_below="@+id/doswiadczenie2.1"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:textSize="15dp"
+        android:text="Kierownik studenckiego projektu badawczego: Różnice w odbiorze architektury:aspekt tożsamościowy, obszar badań: Mcedonia, Serbia"/>
+
+    <TextView
+        android:id="@+id/doswiadczenie3.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doswiadczenie2.2"
+        android:layout_below="@+id/doswiadczenie2.2"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="03.2013r. - ..."/>
+    <TextView
+        android:id="@+id/doswiadczenie3.2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doswiadczenie3.1"
+        android:layout_below="@+id/doswiadczenie3.1"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:textSize="15dp"
+        android:text="Asystent wykładowcy - staż, Wydział Architektury Poznańskiej"/>
+
+    <TextView
+        android:id="@+id/doswiadczenie4.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doswiadczenie3.2"
+        android:layout_below="@+id/doswiadczenie3.2"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="12.2012r."/>
+    <TextView
+        android:id="@+id/doswiadczenie4.2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doswiadczenie4.1"
+        android:layout_below="@+id/doswiadczenie4.1"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:textSize="15dp"
+        android:text="Międzynarodowa konferencja naukowa: Możliwości wykorzystania architektury regionalnej we współczesnym budownictwie , artykuł: Współczesna architektura w skansenach a rachitektura regionalna, Pyzdry"/>
+
+
+    <TextView
+        android:id="@+id/doswiadczenie5.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doswiadczenie4.2"
+        android:layout_below="@+id/doswiadczenie4.2"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="12.2011r."/>
+    <TextView
+        android:id="@+id/doswiadczenie5.2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doswiadczenie5.1"
+        android:layout_below="@+id/doswiadczenie5.1"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:textSize="15dp"
+        android:text="Współautor artykułu: Bastiony rekreacji, czyli sportowe oblicze cytadeli, Kroniki Miasta Poznania 4/2011, Poznań"/>
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/scan"/>
+    <TextView
+        android:id="@+id/doswiadczenie6.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doswiadczenie5.2"
+        android:layout_below="@+id/doswiadczenie5.2"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="07.2011r."/>
+    <TextView
+        android:id="@+id/doswiadczenie6.2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/doswiadczenie6.1"
+        android:layout_below="@+id/doswiadczenie6.1"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:textSize="15dp"
+        android:text="Międzynarodowe warsztaty i konferencja ekologiczna, organizator: JANUN, Hannover, Niemcy"/>
+
+
+    <ImageView
+        android:id="@+id/margin"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_margin="0dp"
+        android:layout_marginRight="0dp"
+        android:background="#ffffff"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/photo" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="fill_parent"
+        android:layout_margin="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/margin" />
+
+
+
+    <TextView
+        android:id="@+id/wyksztalcenie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/daneOsobowe6"
+        android:layout_below="@+id/daneOsobowe6"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:text="wykształcenie"/>
+
+
+    <TextView
+        android:id="@+id/wyksztalcenie1.1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/wyksztalcenie"
+        android:layout_below="@+id/wyksztalcenie"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="02.2011r. - 09.2012"/>
+    <TextView
+        android:id="@+id/wyksztalcenie1.2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/wyksztalcenie1.1"
+        android:layout_below="@+id/wyksztalcenie1.1"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:textSize="15dp"
+        android:text="Politechnika Poznańska, Wydział Architektury, kierunek: Architektura i urbanistyka, studia II stopnia, tytuł: magister inżynier architekt"/>
+    <TextView
+        android:id="@+id/wyksztalcenie2.1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/wyksztalcenie1.2"
+        android:layout_below="@+id/wyksztalcenie1.2"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="10.2007r. - 02.2011"/>
+    <TextView
+        android:id="@+id/wyksztalcenie2.2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/wyksztalcenie2.1"
+        android:layout_below="@+id/wyksztalcenie2.1"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:textSize="15dp"
+        android:text="Politechnika Poznańska, Wydział Architektury, kierunek: Architektura i urbanistyka, studia I stopnia, tytuł: inżynier architekt"/>
+
+    <TextView
+        android:id="@+id/jezyki"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/wyksztalcenie2.2"
+        android:layout_below="@+id/wyksztalcenie2.2"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:text="języki"/>
+
+    <TextView
+        android:id="@+id/jezyki1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/jezyki"
+        android:layout_below="@+id/jezyki"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:text="angielski - C1    niemiecki - A2    francuski - A2"/>
+
+    <TextView
+        android:id="@+id/zainteresowania"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/jezyki1"
+        android:layout_below="@+id/jezyki1"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:text="zainteresowania"/>
+
+    <TextView
+        android:id="@+id/zainteresowania1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/zainteresowania"
+        android:layout_below="@+id/zainteresowania"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:text="rekonstrukcja istoryczna, fotografia, muzyka rockowa i jazzowa, książki, psychologia i socjologia w architekturze"/>
+
+
+
+
+
+
+    <include layout="@layout/content_new" />
+</RelativeLayout>
+</LinearLayout>
+</ScrollView >
